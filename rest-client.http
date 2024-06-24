@@ -1,0 +1,10 @@
+GET http://localhost:3001
+
+### SENT FETCH SONGS REQUEST
+GET http://localhost:3001/songs
+
+POST http://localhost:3001/songs/1
+
+PUT http://localhost:3001/songs/1
+
+DELETE http://localhost:3001/songs/1
