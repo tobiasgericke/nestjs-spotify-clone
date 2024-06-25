@@ -1,10 +1,13 @@
 GET http://localhost:3001
 
-### SENT FETCH SONGS REQUEST
+### SEND FETCH SONGS REQUEST
 GET http://localhost:3001/songs
 
+### CREATE FETCH SONGS REQUEST
 POST http://localhost:3001/songs/1
 
+### UPDATE SONG BY ID
 PUT http://localhost:3001/songs/1
 
+### DELETE SONG BY ID
 DELETE http://localhost:3001/songs/1
